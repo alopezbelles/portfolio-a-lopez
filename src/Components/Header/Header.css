@@ -1,0 +1,51 @@
+.navbarDesign {
+  background-color: #212121;
+  /* height: 6em; */
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px; */
+  font-family: "Roboto", sans-serif;
+  border: solid black 1px;
+  color: white;
+
+}
+
+.navbarDesign .nav-link {
+  color: white;
+}
+.navbarDesign .nav-link:hover {
+  color: rgb(124, 62, 139);
+}
+
+/* .me-auto{
+    height: 3.2em;
+  
+  
+  } */
+
+.logoNavbar {
+  width: 70px;
+  filter: invert(100%);
+
+}
+
+.logoNavbar:hover {
+  scale: 1.2;
+  transition: 0.2s;
+}
+
+a{
+    margin-right: 15px;
+}
+
+.navbarDesign .navbar-toggler-icon {
+    background-color: white;
+  }
+  
+  /* Cambiar el color de las tres líneas horizontales cuando el botón está activo (haciendo clic) */
+  .navbarDesign .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    background-color: white;
+  }
+  
+  /* Cambiar el color de las tres líneas horizontales al pasar el ratón */
+  .navbarDesign .navbar-toggler:hover .navbar-toggler-icon {
+    background-color: white;
+  }
